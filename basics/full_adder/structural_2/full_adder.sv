@@ -1,26 +1,12 @@
-module xor_3_gate(a,b,c,z);
-	input wire a,b,c;
-	output z;
-	
-	assign z = a ^ b ^ c;
-endmodule
+`include "../../half_adder/dataflow/half_adder.sv"
 
-module or_3_gate(a,b,c,z);
-	input wire a,b,c;
-	output z;
-	
-	assign z = a || b || c;
-	
-endmodule
-
-module and_2_gate(a,b,z);
+module or_2_gate(a,b,z);
 	input wire a,b;
 	output z;
 	
-	assign z = a && b;
+	assign z = a || b;
 	
 endmodule
-
 
 module full_adder(a,b,cin,s,c);
 	input wire a,b,cin;
@@ -28,9 +14,7 @@ module full_adder(a,b,cin,s,c);
 
 	wire loc1,loc2,loc3;
 
-	xor_3_gate xor_3_gate_inst(a,b,cin,s);
-	and_2_gate and_2_gate_inst1(a,b,loc1);
-	and_2_gate and_2_gate_inst2(b,cin,loc2);
-	and_2_gate and_2_gate_inst3(a,cin,loc3);
-	or_3_gate or_3_gate_inst(loc1,loc2,loc3,c);	
+	half_adder half_adder_1(a,b,loc1,loc2);
+	half_adder half_adder_2(loc1,cin,s,loc3);
+	or_2_gate or_2_gate_inst(loc2,loc3,c);	
 endmodule
