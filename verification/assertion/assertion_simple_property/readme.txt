@@ -24,7 +24,7 @@ Assert for 'a' and 'b' using property, with its own clock.
 Takeaways:
 --------------------
 -Syntax:
-    property <squence_name>;
+    property <property_name>;
 	........;
     endproperty    
 
