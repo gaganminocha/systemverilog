@@ -73,10 +73,10 @@ module arbiter_round_robin (input wire clk,
     always@(*)
     begin
         case(ps)
-        s0: gnt <= 4'b1000;
-        s1: gnt <= 4'b0100;
-        s2: gnt <= 4'b0010;
-        s3: gnt <= 4'b0001;
+        s0: gnt <= 4'b0001;
+        s1: gnt <= 4'b0010;
+        s2: gnt <= 4'b0100;
+        s3: gnt <= 4'b1000;
         endcase
 
     end
