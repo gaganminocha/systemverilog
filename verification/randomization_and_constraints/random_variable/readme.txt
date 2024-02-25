@@ -18,6 +18,7 @@ Takeaways:
 -Class can be written inside module or outside it.
 -Creation of object-handle 'pack_obj' (line 8), can be done directly in module or inside initial block
 -Creation of object using new(), can be done only inside initial block.
+-Change seed for randomize using vsim option in Questa -sv_seed <val>
 
 
 --------------------
