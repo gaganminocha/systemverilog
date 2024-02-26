@@ -37,3 +37,32 @@ Takeaways:
 
 
 
+
+--------------------
+Result:
+--------------------
+Note: This result is generated using edaplayground
+Tool & Simulation: Mentor Questa 2021.3
+
+
+# Time:                    5	 addr: 4	, pkt: 2
+# Time:                   10	 addr: 0	, pkt: 7
+# Time:                   15	 addr: 2	, pkt: 7
+# Time:                   20	 addr: 0	, pkt: 3
+# Time:                   25	 addr: 4	, pkt: 2
+# Time:                   30	 addr: 5	, pkt: 4
+# Time:                   35	 addr: 2	, pkt: 3
+# Time:                   40	 addr: 2	, pkt: 7
+# Time:                   45	 addr: 2	, pkt: 1
+# Time:                   50	 addr: 2	, pkt: 1
+# Time:                   55	 addr: 2	, pkt: 7
+# Time:                   60	 addr: 0	, pkt: 7
+# Time:                   65	 addr: 2	, pkt: 3
+# Time:                   70	 addr: 6	, pkt: 2
+# Time:                   75	 addr: 4	, pkt: 3
+# Time:                   80	 addr: 2	, pkt: 3
+# Time:                   85	 addr: 0	, pkt: 4
+# Time:                   90	 addr: 2	, pkt: 7
+# Time:                   95	 addr: 0	, pkt: 4
+# Time:                  100	 addr: 2	, pkt: 3
+
