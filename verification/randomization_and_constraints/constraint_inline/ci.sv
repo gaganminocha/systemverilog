@@ -1,26 +1,33 @@
 `timescale 1ns/1ps
 
 class crv;
-    rand  bit [4:0] addr;
-   
-    constraint cons {
-        addr inside {1, 2, [4:6], [10:28]};
+
+    rand bit [4:0] addr;  
+    
+    constraint cons1 {
+        addr inside {1, 2, [4:6], [10:28]}; 
+    }
+    
+    constraint cons2 {
+    addr <= 28; 
     }
 
 endclass
 
 
-module tb;
+module tb();
+
     crv obj;
 
     initial
-    begin
+    begin: randomizing
         obj = new();
-        $monitor("time = %t\t addr = %d ",$time, obj.addr);
-        repeat (10)
-        begin
-            #5 obj.randomize() with {addr inside {[20:24]};};
-        end
+        repeat(10) #5 obj.randomize() with {addr >= 20 && addr <= 24;};
+    end
+
+    initial
+    begin: monitoring
+        $monitor("time: %t, addr: %d",$time,obj.addr);
     end
 
 endmodule

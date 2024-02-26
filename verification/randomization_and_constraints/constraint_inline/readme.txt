@@ -33,6 +33,21 @@ Takeaways:
 
 
 
+--------------------
+Result:
+--------------------
+Note: This result is generated using edaplayground
+Tool & Simulation: Mentor Questa 2021.3
 
 
+# time:                    0, addr:  0
+# time:                 5000, addr: 21
+# time:                15000, addr: 22
+# time:                20000, addr: 21
+# time:                25000, addr: 24
+# time:                30000, addr: 22
+# time:                35000, addr: 21
+# time:                40000, addr: 24
+# time:                45000, addr: 20
+# time:                50000, addr: 21
 
