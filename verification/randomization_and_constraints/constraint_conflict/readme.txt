@@ -36,4 +36,13 @@ Note: This result is generated using edaplayground
 Tool & Simulation: Mentor Questa 2021.3
 
 
-
+...
+...
+ Time: 15 ns  Iteration: 0  Process: /tb/#INITIAL#25 File: testbench.sv Line: 31
+# testbench.sv(31): randomize() failed due to conflicts between the following constraints:
+# 	testbench.sv(10): first { (data == 4); }
+# 	testbench.sv(31): (data == 7);
+# Where:
+# 	data = 5'h07 /* random  */
+...
+...
