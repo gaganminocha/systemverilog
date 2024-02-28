@@ -35,7 +35,7 @@ module tb;
         repeat(8) #5 obj.randomize();
        
         obj.lt_13.constraint_mode(0);
-        $display("gt_3 mode: %0b", obj.lt_13.constraint_mode());
+        $display("lt_13 mode: %0b", obj.lt_13.constraint_mode());
 
         repeat(10) #5 obj.randomize();
     end
