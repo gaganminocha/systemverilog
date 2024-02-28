@@ -56,4 +56,24 @@ Takeaways:
 
 
 
+--------------------
+Result:
+--------------------
+Note: This result is generated using edaplayground
+Tool & Simulation: Mentor Questa 2021.3
+
+
+run -all
+# addr: 3	 data:1
+# addr: 3	 data:1
+# addr: 3	 data:1
+# addr: 2	 data:1
+# addr: 3	 data:1
+# addr: 1	 data:0
+# addr: 1	 data:0
+# addr: 1	 data:0
+# addr: 1	 data:0
+# addr: 1	 data:0
+
+
 
