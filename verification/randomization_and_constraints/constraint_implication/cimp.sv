@@ -1,4 +1,4 @@
-// Constraint Conflict - 'soft' resolve
+// Constraint Implication
 //
 // Author: Gagan Minocha (igaganminocha@gmail.com)
 //

@@ -1,4 +1,4 @@
-// Constraint Conflict - 'soft' resolve
+// Constraint if-else
 //
 // Author: Gagan Minocha (igaganminocha@gmail.com)
 //
