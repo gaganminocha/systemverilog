@@ -1,3 +1,8 @@
+// Constraint - inside
+//
+// Author: Gagan Minocha (igaganminocha@gmail.com)
+//
+
 `timescale 1ns/1ps
 
 class ci;
