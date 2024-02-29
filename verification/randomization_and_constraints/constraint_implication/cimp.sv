@@ -1,3 +1,9 @@
+// Constraint Conflict - 'soft' resolve
+//
+// Author: Gagan Minocha (igaganminocha@gmail.com)
+//
+
+
 `timescale 1ns/100ps
 
 class cimp;
