@@ -1,3 +1,8 @@
+// Constraint - solve 'x' before 'y'
+//
+// Author: Gagan Minocha (igaganminocha@gmail.com)
+//
+
 `timescale 1ns/100ps
 
 class cb;
@@ -23,7 +28,7 @@ module tb;
     initial
     begin
         obj = new();
-        repeat (20) obj.randomize();
+        repeat (10) obj.randomize();
     end
 
 endmodule

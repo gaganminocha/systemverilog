@@ -14,7 +14,7 @@ constraint one:
 constraint two:
     solve probability issue of 'addr' values, using solve .. before ..
 
-randomize 20 times
+randomize 10 times
 
 --------------------
 Takeaways:
@@ -44,3 +44,25 @@ Takeaways:
 
 -This issue can be resolved by ordering constraints, use:
     solve 'x' before 'y' constraints
+
+
+
+--------------------
+Result:
+--------------------
+Note: This result is generated using edaplayground
+Tool & Simulation: Mentor Questa 2021.3
+
+# run -all
+# addr: 1	 data: 5
+# addr: 1	 data: 5
+# addr: 0	 data: 0
+# addr: 0	 data: 0
+# addr: 1	 data: 0
+# addr: 1	 data: 1
+# addr: 0	 data: 0
+# addr: 0	 data: 0
+# addr: 1	 data: 2
+# addr: 0	 data: 0
+# exit
+
