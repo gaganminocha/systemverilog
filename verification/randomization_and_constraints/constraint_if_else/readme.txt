@@ -33,3 +33,33 @@ Takeaways:
 -similar behavior can be achieved using implication (->) in constraint.
 -pkt_size is of enum type 'size', so for printing it, use pkt_size.name
 
+
+
+--------------------
+Result:
+--------------------
+Note: This result is generated using edaplayground
+Tool & Simulation: Mentor Questa 2021.3
+
+run -all
+# pkt_size= s	 pkt:14
+# pkt_size= xs	 pkt: 3
+# pkt_size= m	 pkt:22
+# pkt_size= m	 pkt:22
+# pkt_size= m	 pkt:19
+# pkt_size= m	 pkt:18
+# pkt_size= l	 pkt:23
+# pkt_size= xs	 pkt: 3
+# pkt_size= s	 pkt:14
+# pkt_size= l	 pkt:23
+# pkt_size= l	 pkt:24
+# pkt_size= l	 pkt:24
+# pkt_size= s	 pkt:14
+# pkt_size= l	 pkt:24
+# pkt_size= xs	 pkt: 6
+# pkt_size= xl	 pkt:29
+# pkt_size= s	 pkt:12
+# pkt_size= s	 pkt: 9
+# pkt_size= l	 pkt:23
+# pkt_size= xs	 pkt: 5
+# exit
