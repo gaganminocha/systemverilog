@@ -1,3 +1,8 @@
+// Constraint - foreach
+//
+// Author: Gagan Minocha (igaganminocha@gmail.com)
+//
+
 `timescale 1ns/100ps
 
 class cfa;
@@ -19,7 +24,8 @@ class cfa;
 
     function void post_randomize();
         $display("time: %d  size_pkt: %d  size_addr: %d", $time, pkt.size, addr.size);
-        foreach (addr[i]) $display("time: %d  pkt[%d]: %d  addr[%d]: %d", $time, i, pkt[i], i, addr[i]);
+        //foreach (addr[i]) $display("time: %d  pkt[%d]: %d  addr[%d]: %d", $time, i, pkt[i], i, addr[i]);
+        $display ("pkt=%p addr=%p", pkt, addr);
     endfunction    
 
 endclass
@@ -35,5 +41,3 @@ module tb;
     end
 
 endmodule
-
-
