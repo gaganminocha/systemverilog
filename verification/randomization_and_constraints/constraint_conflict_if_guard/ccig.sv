@@ -1,3 +1,8 @@
+// Constraint Conflict - if_guard resolve
+//
+// Author: Gagan Minocha (igaganminocha@gmail.com)
+//
+
 `timescale 1ns/1ps
 
 class crv;
@@ -12,8 +17,6 @@ class crv;
     {
         addr >= 23;
     }
-   
-
 endclass
 
 
