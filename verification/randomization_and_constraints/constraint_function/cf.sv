@@ -1,3 +1,8 @@
+// Constraint - function calling inside constraint
+//
+// Author: Gagan Minocha (igaganminocha@gmail.com)
+//
+
 `timescale 1ns/100ps
 
 class cf;
