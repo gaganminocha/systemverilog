@@ -1,3 +1,8 @@
+// Constraint Conflict - 'soft' resolve
+//
+// Author: Gagan Minocha (igaganminocha@gmail.com)
+//
+
 `timescale 1ns/100ps
 
 class cu;
@@ -39,5 +44,3 @@ module tb;
         end
     end
 endmodule
-
-
