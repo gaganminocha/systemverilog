@@ -28,6 +28,8 @@ randomize 10 times
 Takeaways:
 --------------------
 -Run-time error on having constraint on non-rand variable.
+-Disabling and enabling can be done for whole class, <obj>.constraint_mode(<0_or_1>)
+-But you CAN'T print rand_mode of whole class, <obj>.constraint_mode()
 
 
 
