@@ -1,3 +1,9 @@
+// Constraint - simple randomness - system tasks
+//
+// Author: Gagan Minocha (igaganminocha@gmail.com)
+//
+
+
 `timescale 1ns/100ps
 
 module tb;
@@ -11,7 +17,7 @@ module tb;
 
     initial
     begin
-        repeat (30)
+        repeat (10)
         begin
             #10
             a = $urandom();
