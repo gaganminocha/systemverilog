@@ -22,6 +22,11 @@ Takeaways:
 
 -Verbosity will be discussed in detail in other example.
 
+-Comparison with $display:
+    provides ID
+    has verbosity feature
+    also give filename, line, time and component (reporter)
+
 
 --------------------
 Result:
