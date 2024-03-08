@@ -16,9 +16,3 @@ module tb;
 
 endmodule
 
-
-
-
-
-
-	    
