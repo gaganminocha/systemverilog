@@ -78,7 +78,26 @@ Takeaways:
 Result:
 --------------------
 
-
+ UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test comp...
+# UVM_INFO uvcp.sv(24) @ 0: uvm_test_top [comp] In build_phase
+# UVM_INFO uvcp.sv(31) @ 0: uvm_test_top [comp] In run_phase
+# UVM_INFO uvcp.sv(38) @ 0: uvm_test_top [comp] In extract_phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    6
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RNTST]     1
+# [comp]     3
+# ** Note: $finish    : /home/gminocha/intelFPGA_lite/22.1std/questa_fse/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 0 ns  Iteration: 215  Instance: /tb
 
 
 
