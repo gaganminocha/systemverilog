@@ -17,18 +17,22 @@ Takeaways:
 -In TLM, data is transfer between two classes, known as Port & Export
 
 -Port initiate the transaction - initiator - square box marking
--export - respond to the request by port - responder - circle marking
+-Export - respond to the request by port - responder - circle marking
 
 -Flows
     control flow - who intiate the data request
     data flow - how data is flowing between port and export. 
 
-- Let A is inititor the request
-      B is responding to request
+- Let A is inititor the request - PORT - square
+      B is responding to request- EXPORT - circle
 
-    If data is flowing from A to B, it is PUT
-    If data is flowing from B to A, it is GET
+    If data is flowing from A to B, it is PUT (Port to Export)
+    If data is flowing from B to A, it is GET (Export to Port)
     If data is flowing in both direction, it is TRANSPORT
+
+- Port always calls the function (get or put) based on dataflow direction.
+- Export has the implementation of the function. it always exports the functionality of function.
+
 
 
 - These operations can be achieved using:
@@ -42,6 +46,8 @@ Takeaways:
     GET + Non-Blocking
     TRANSPORT + Blocking
     TRANSPORT + Non-Blocking
+    ...
+    ... 
 
 
 
@@ -58,7 +64,7 @@ Takeaways:
     recv  = new("recv", this);
 
 - connect_phase
-    use to connect tlm ports
+    use to connect tlm ports - port connect to export
     p.send.connect(c.recv);
 
 
