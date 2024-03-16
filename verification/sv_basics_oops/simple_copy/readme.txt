@@ -33,9 +33,23 @@ Takeaways:
 
 
 -Deep copy 
+    Syntax:
+        obj2 = obj1.copy();
+    Here user defined function 'copy' is written inside class.
+    new object of current class is created to allocate memory.
+    Return type of copy function is the class itself.
+    It returns an object 'copy' of same class.
+    function definition: copies class var to newly created 'copy' object
+        
+    function <class_name> copy;
+        copy = new();               //creates memory for var in current class   
+        copy.var1 = this.var1;      //copies class variable to new object 'copy'
+        copy.var2 = this.var2            
+        copy.<any_obj> = <any_obj>.copy     //copy other class handle in present class.
+        return copy
+    endfuntion
 
 
--Shallow Copy Example:
 
 
 --------------------
@@ -45,6 +59,7 @@ Result:
 
 # obj1.abc1.a =3 & obj1.abc1.b= 4
 # obj2.abc1.a =3 & obj2.abc1.b= 4
-# obj1.x =65538 & obj1.y= 6
-# obj2.x =6 & obj2.y= 65538
+# obj1.x =65538 & obj1.y= 8
+# obj2.x =5 & obj2.y= 65538
+
 
