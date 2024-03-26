@@ -34,7 +34,7 @@ Takeaways:
             join
             <post_join_statements>
         end
-
+    it joins after all the process are completed
 
 
 --------------------
