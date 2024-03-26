@@ -17,7 +17,7 @@ Takeaways:
 --------------------
 
 
--fork_join
+-fork join_any
     syntax:
         initial
         begin
@@ -27,7 +27,7 @@ Takeaways:
             
                 begin : process 2
                 end
-            join
+            join_any
             <post_join_statements>
         end
     it joins after any of the process is completed
