@@ -1,4 +1,4 @@
-// SV - Shallow Copy
+// SV - Deep Copy
 //
 // Author: Gagan Minocha (igaganminocha@gmail.com)
 //
