@@ -27,7 +27,7 @@ Takeaways:
         endfunction
 
 -uvm_component
-    use to build dynamic component (like transaction class) - which changes with every simulation iteration
+    use to build static components (like driver, monitor class) - which does not change with every simulation iteration.
 
 -constructing object of class is done by 'create' method (which will be discussed later), here 'new' is being used.
 
