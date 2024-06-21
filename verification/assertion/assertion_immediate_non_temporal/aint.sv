@@ -1,3 +1,8 @@
+// Assertion - Immediate - Non-temporal
+//
+// Author: Gagan Minocha (igaganminocha@gmail.com)
+//
+
 `timescale 1ns/100ps
 
 module tb;
