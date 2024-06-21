@@ -1,4 +1,4 @@
-SVA - Implication overlapped
+SVA - Implication non-overlapped
        
 --------------------
 Problem:
