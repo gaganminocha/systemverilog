@@ -8,6 +8,7 @@ Problem:
 rand addr - 2 bit
 rand data - 1 bit
 
+
 constraint one:
     for addr 0 or 1: data is 0
     else data is 1
