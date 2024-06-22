@@ -33,7 +33,7 @@ Takeaways:
     unique{array_name}
     it will generate unique different values of elements of array.
     no two values are same.
-    -Kind of implements randc using rand, but instead of a variable, unique values for element of array (all generated in first randomize, whereas randc generate unique values over multiple randomize calls)
+-Kind of implements randc using rand, but instead of a variable, unique values for element of array (all generated in first randomize, whereas randc generate unique values over multiple randomize calls)
 
 -Error scenario:
     unique{var1, var2, var1}
