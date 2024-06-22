@@ -1,4 +1,4 @@
-// Constraint Conflict - 'soft' resolve
+// Constraint Conflict - 'unique' resolve
 //
 // Author: Gagan Minocha (igaganminocha@gmail.com)
 //
