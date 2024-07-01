@@ -56,6 +56,8 @@ Takeaways:
 Result:
 --------------------
 
+# addr of obj1 = 65538, addr of obj2 = 131074
+# addr of obj1.abc1 = 65539, addr of obj2.abc1 = 196611
 # obj1.abc1.a =1 & obj1.abc1.b= 2
 # obj2.abc1.a =3 & obj2.abc1.b= 4
 # obj1.x =5 & obj1.y= 6
