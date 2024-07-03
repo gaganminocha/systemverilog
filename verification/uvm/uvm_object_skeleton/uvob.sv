@@ -8,11 +8,14 @@
 import uvm_pkg::*;
  
 class obj extends uvm_object;
-`uvm_object_utils(obj)
 
-function new(string inst = "obj");
-    super.new(inst);
-endfunction
+    //Factory registry
+    `uvm_object_utils(obj)
+
+    //Constructor
+    function new(string inst = "obj");
+        super.new(inst);
+    endfunction
 
 endclass
 

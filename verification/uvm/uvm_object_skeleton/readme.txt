@@ -23,7 +23,7 @@ Takeaways:
 -Constructor
     1 argument in extended class constructor
         function new (input string inst = "obj");
-            supur.new(inst);
+            super.new(inst);
         endfucntion
 
 -uvm_object
