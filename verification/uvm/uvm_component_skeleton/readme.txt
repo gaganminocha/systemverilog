@@ -21,7 +21,7 @@ Takeaways:
     `uvm_component_utils(comp)        //comp is the name of the class extended from uvm_component
 
 -Constructor
-    1 argument in extended class constructor
+    2 arguments in extended class constructor
         function new (input string inst = "comp", uvm_component parent = null);
             super.new(inst, parent);
         endfunction
