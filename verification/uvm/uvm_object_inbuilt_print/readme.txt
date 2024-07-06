@@ -40,6 +40,7 @@ Takeaways:
     obj - is the name of the class extended from uvm_object
     ARG - varaible name
     FLAG - setting, multi flag applied using OR operator '|'
+
 -uvm_object
     use to build dynamic component (like transaction class) - which changes with every simulation iteration
 

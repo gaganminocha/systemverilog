@@ -37,6 +37,8 @@ Takeaways:
 
 -do_print - it gives access to uvm_printer through it's argument
 
+-do_print - add super.do_print(printer) to call parent class do_print method.
+
 -uvm_printer - The uvm_printer class provides an interface for printing uvm_objects in various formats.  Subtypes of uvm_printer implement different print formats, or policies.
 
 -uvm_printer - methods

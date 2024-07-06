@@ -34,6 +34,23 @@ Takeaways:
 
 -macro inside body of uvm_sequence
     `uvm_do(trans) - it creates object of trans + randomize + send data to sequencer
+    `uvm_do(trans) does not give flexibility, so we look for better options like start_item, finish_item
+
+-start_item() & finish_item()
+    instead of `uvm_do(trans), we do:
+        trans = transaction::type_id::create("trans");
+        start_item(trans);     
+        assert(trans.randomize()) 
+        finish_item(trans);
+
+-start_item()
+    It tells the sequencer that new item is available. If driver asks for data, then it goes to next line assert(trans.randomize()).
+
+-finish_item()
+
+-Advantage of these steps is that they allow modification to be added after randomization step
+    
+
 
 -uvm_sequencer - we are not going to write code of it, just connect driver to sequencer using TLM ports.
     Sequencer is Export TLM port.

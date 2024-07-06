@@ -1,4 +1,4 @@
-// UVM - uvm_object - inbuilt print()
+// UVM - uvm_object - do print()
 //
 // Author: Gagan Minocha (igaganminocha@gmail.com)
 //
@@ -21,6 +21,7 @@ class transaction extends uvm_object;
 
     //do_* method definition 
     virtual function void do_print (uvm_printer printer);
+        super.do_print(printer);
         printer.print_field_int( "data", data, $bits(data), UVM_DEC);
     endfunction 
     
