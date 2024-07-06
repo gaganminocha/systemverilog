@@ -30,7 +30,8 @@ Takeaways:
     UVM_FULL   = 400,
     UVM_DEBUG  = 500
 
--uvm_info(< >, < > , <verbosity>) - to display message on console, verbosity here is to be less than equal to uvm's set verbosity (default is 200, UVM_MEDIUM)
+-uvm_info(< >, < > , <verbosity>) - to display message on console, 
+    verbosity here is to be less than equal to uvm's set verbosity (default is 200, UVM_MEDIUM)
 
 -3rd argument for uvm_info macro, could be a number or any of the above mentioned enum (UVM_NONE...UVM_DEBUG)
 
